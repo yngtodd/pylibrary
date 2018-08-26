@@ -8,13 +8,13 @@ Installation
 Stable release
 --------------
 
-To install nuclei, run this command in your terminal:
+To install {{ cookiecutter.repo_name }}, run this command in your terminal:
 
 .. code-block:: console
 
     pip install {{ cookiecutter.repo_name }} 
 
-This is the preferred method to install molecules, as it will always install the most recent stable release.
+This is the preferred method to install {{ cookiecutter.repo_name }}, as it will always install the most recent stable release.
 
 If you don't have `pip`_ installed, this `Python installation guide`_ can guide
 you through the process.
@@ -26,7 +26,7 @@ you through the process.
 From sources
 ------------
 
-The sources for molecules can be downloaded from the `Github repo`_.
+The sources for {{ cookiecutter.repo_name }} can be downloaded from the `Github repo`_.
 
 You can either clone the public repository:
 
