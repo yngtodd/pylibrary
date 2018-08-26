@@ -2,9 +2,9 @@
 	"full_name": "Todd Young",
 	"email": "young.todd.mk@gmail.com",
 	"github_username": "yngtodd",
-	"project_name": "Starter",
-	"repo_name": "starter",
-	"project_short_description": "A baseline for your Python project.",
+	"project_name": "Blueprint",
+	"repo_name": "blueprint",
+	"project_short_description": "A blueprint for your Python project.",
 	"release_date": "2018-08-25",
 	"year": "2018",
 	"version": "0.1.0"
