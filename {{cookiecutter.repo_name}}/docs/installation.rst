@@ -1,13 +1,51 @@
+.. highlight:: shell
+
 ============
 Installation
 ============
 
-At the command line either via easy_install or pip::
 
-    $ easy_install {{ cookiecutter.repo_name }}
-    $ pip install {{ cookiecutter.repo_name }}
+Stable release
+--------------
 
-Or, if you have virtualenvwrapper installed::
+To install nuclei, run this command in your terminal:
 
-    $ mkvirtualenv {{ cookiecutter.repo_name }}
-    $ pip install {{ cookiecutter.repo_name }}
+.. code-block:: console
+
+    pip install {{ cookiecutter.repo_name }} 
+
+This is the preferred method to install molecules, as it will always install the most recent stable release.
+
+If you don't have `pip`_ installed, this `Python installation guide`_ can guide
+you through the process.
+
+.. _pip: https://pip.pypa.io
+.. _Python installation guide: http://docs.python-guide.org/en/latest/starting/installation/
+
+
+From sources
+------------
+
+The sources for molecules can be downloaded from the `Github repo`_.
+
+You can either clone the public repository:
+
+.. code-block:: console
+
+    git clone git://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}
+
+Or download the `tarball`_:
+
+.. code-block:: console
+
+    curl  -OL https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/tarball/master
+
+Once you have a copy of the source, you can install it with:
+
+.. code-block:: console
+
+    python setup.py install
+
+
+.. _Github repo: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}
+.. _tarball: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/tarball/master
