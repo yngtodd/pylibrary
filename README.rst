@@ -75,5 +75,5 @@ make my own packaging experience better.
 .. _Pytest: http://pytest.org/
 .. _PyPy: http://pypy.org/
 .. _Wheel: http://pythonwheels.com
-.. _example: https://github.com/yngtodd/blueprintA
+.. _example: https://github.com/yngtodd/blueprint
 .. _documentation: https://blueprint.readthedocs.io/en/latest/index.html#
