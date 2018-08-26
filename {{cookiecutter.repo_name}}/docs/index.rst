@@ -4,6 +4,7 @@
    contain the root `toctree` directive.
 
 {{ cookiecutter.project_name }} Documentation
+=============================================
 
 Contents:
 =========
