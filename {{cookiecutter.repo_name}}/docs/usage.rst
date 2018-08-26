@@ -1,7 +1,11 @@
+.. highlight:: shell
+
 =====
 Usage
 =====
 
-To use {{ cookiecutter.project_name }} in a project::
+To use {{ cookiecutter.project_name }} in a project:
 
-	import {{ cookiecutter.repo_name }}
+.. code-block:: console
+
+    import {{ cookiecutter.repo_name }}

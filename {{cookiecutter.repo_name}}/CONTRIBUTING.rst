@@ -1,3 +1,5 @@
+.. highlight:: shell
+
 ============
 Contributing
 ============
@@ -59,28 +61,36 @@ Ready to contribute? Here's how to set up `{{ cookiecutter.repo_name }}` for
 local development.
 
 1. Fork_ the `{{ cookiecutter.repo_name }}` repo on GitHub.
-2. Clone your fork locally::
+2. Clone your fork locally:
 
-    $ git clone git@github.com:your_name_here/{{ cookiecutter.repo_name }}.git
+.. code-block:: console
 
-3. Create a branch for local development::
+    git clone git@github.com:your_name_here/{{ cookiecutter.repo_name }}.git
 
-    $ git checkout -b name-of-your-bugfix-or-feature
+3. Create a branch for local development:
+
+.. code-block:: console
+
+    git checkout -b name-of-your-bugfix-or-feature
 
 Now you can make your changes locally.
 
 4. When you're done making changes, check that your changes pass style and unit
-   tests, including testing other Python versions with tox::
+   tests, including testing other Python versions with tox:
 
-    $ tox
+.. code-block:: console
+ 
+    tox
 
 To get tox, just pip install it.
 
-5. Commit your changes and push your branch to GitHub::
+5. Commit your changes and push your branch to GitHub:
 
-    $ git add .
-    $ git commit -m "Your detailed description of your changes."
-    $ git push origin name-of-your-bugfix-or-feature
+.. code-block:: console
+
+    git add .
+    git commit -m "Your detailed description of your changes."
+    git push origin name-of-your-bugfix-or-feature
 
 6. Submit a pull request through the GitHub website.
 
@@ -104,6 +114,8 @@ Before you submit a pull request, check that it meets these guidelines:
 Tips
 ----
 
-To run a subset of tests::
+To run a subset of tests:
 
-	 $ py.test test/test_{{ cookiecutter.repo_name }}.py
+.. code-block:: console
+
+    py.test test/test_{{ cookiecutter.repo_name }}.py
