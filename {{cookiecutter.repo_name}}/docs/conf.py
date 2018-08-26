@@ -32,7 +32,16 @@ import sphinx_rtd_theme
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.autodoc', 'sphinx.ext.viewcode']
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.autosummary',
+    'sphinx.ext.doctest',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.todo',
+    'sphinx.ext.coverage',
+    'sphinx.ext.napoleon',
+    'sphinx.ext.viewcode',
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -146,6 +155,14 @@ html_favicon = "_static/img/favicon.png"
 html_static_path = ['_static']
 
 html_style_path = '_static/css/pytorch_theme.css'
+
+html_context = {
+    'css_files': [
+        'https://fonts.googleapis.com/css?family=Lato',
+        '_static/css/pytorch_theme.css',
+        'https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css',
+    ],
+}
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
