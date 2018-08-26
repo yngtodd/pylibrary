@@ -21,6 +21,11 @@ Cookiecutter template for a Python package. See https://github.com/audreyr/cooki
 * Sphinx_ docs: Documentation raedy for generation with, for example, ReadTheDocs_
 * Wheel_ support: Use the newest python package distribution standard from the get go
 
+Example
+-------
+
+Curious to see what the template looks like? Checkout the example_ to see what the repository will look like when you select all the default settings. You can also see how that baseline documentation_ turns out. 
+
 Usage
 -----
 
@@ -70,3 +75,5 @@ make my own packaging experience better.
 .. _Pytest: http://pytest.org/
 .. _PyPy: http://pypy.org/
 .. _Wheel: http://pythonwheels.com
+.. _example: https://github.com/yngtodd/blueprintA
+.. _documentation: https://blueprint.readthedocs.io/en/latest/index.html#
