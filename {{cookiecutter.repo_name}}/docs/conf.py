@@ -156,28 +156,6 @@ latex_elements = {
     # 'figure_align': 'htbp',
 }
 
-imgmath_latex_preamble = r'''
-\usepackage{algorithm}
-\usepackage{algorithmic}
-\usepackage{cancel}
-
-\usepackage[verbose=true,letterpaper]{geometry}
-\geometry{
-    textheight=12in,
-    textwidth=6.5in,
-    top=1in,
-    headheight=12pt,
-    headsep=25pt,
-    footskip=30pt
-    }
-
-\newcommand{\E}{{\mathrm E}}
-
-\newcommand{\underE}[2]{\underset{\begin{subarray}{c}#1 \end{subarray}}{\E}\left[ #2 \right]}
-
-\newcommand{\Epi}[1]{\underset{\begin{subarray}{c}\tau \sim \pi \end{subarray}}{\E}\left[ #1 \right]}
-'''
-
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
