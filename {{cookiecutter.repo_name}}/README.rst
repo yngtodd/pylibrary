@@ -21,8 +21,33 @@
 
 {{ cookiecutter.project_short_description}}
 
-Features
---------
+Documentation
+--------------
+ 
+For references, tutorials, and examples check out our `documentation`_.
 
-* TODO
+Installation
+------------
 
+From Sources:
+
+You can either clone the public repository:
+
+.. code-block:: console
+
+    git clone git://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}
+
+Or download the `tarball`_:
+
+.. code-block:: console
+
+    curl  -OL https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/tarball/master
+
+Once you have a copy of the source, you can install it with:
+
+.. code-block:: console
+
+    python setup.py install
+
+ .. _tarball: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/tarball/master
+ .. _documentation: https://{{ cookiecutter.repo_name }}.readthedocs.io/en/latest
