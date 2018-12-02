@@ -49,5 +49,5 @@ Once you have a copy of the source, you can install it with:
 
     python setup.py install
 
- .. _tarball: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/tarball/master
- .. _documentation: https://{{ cookiecutter.repo_name }}.readthedocs.io/en/latest
+.. _tarball: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/tarball/master
+.. _documentation: https://{{ cookiecutter.repo_name }}.readthedocs.io/en/latest
